@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Post, User } = require('../../models');
+const { Post, User, Vote } = require('../../models');
 
 router.get('/', (req, res) => {
     console.log('=====================');
@@ -57,6 +57,13 @@ router.post('/', (req, res) => {
         console.log(err);
         res.status(500).json(err);
     });
+});
+
+router.put('/upvote', (req, res) => {
+    Vote.create({
+        
+    })
+
 });
 
 router.put('/:id', (req, res) => {
