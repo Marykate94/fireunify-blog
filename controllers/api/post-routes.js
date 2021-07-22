@@ -66,6 +66,7 @@ router.put('/upvote', (req, res) => {
     })
     .then(dbPostData => res.json(dbPostData))
     .catch(err => res.json(err));
+
 });
 
 router.put('/:id', (req, res) => {
