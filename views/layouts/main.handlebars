@@ -15,17 +15,25 @@
         <a href="/">Falconry</a>
       </h1>
       <nav>
+        {{#if loggedIn}}
+        <a href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button>
+        {{else}}
         <a href="/login">login</a>
+        {{/if}}
       </nav>
     </header>
     <main>
       {{{ body }}}
     </main>
     <footer>
-      Thanks for visiting!
+      Fly away!
     </footer>
   </div>
-
+  
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
 </body>
 
 </html>
