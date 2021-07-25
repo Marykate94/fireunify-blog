@@ -12,17 +12,17 @@
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: #33805E;
     font-weight: bold;
     transition: color .1s;
   }
   
   a:hover {
-    color: #3486eb;
+    color: #33805E;
   }
   
   button {
-    background-color: #225ca3;
+    background-color: #33805E;
     border: 0;
     padding: 1%;
     color: white;
@@ -33,7 +33,7 @@
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: #33805E;
   }
   
   .post-list {
@@ -49,7 +49,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid #33805E;
   }
   
   textarea {
@@ -83,7 +83,7 @@
   }
   
   header h1 {
-    font-size: 1em;
+    font-size: 40px;
   }
   
   main {
@@ -97,7 +97,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: #33805E;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -106,7 +106,7 @@
   
   .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: #33805E;
   }
   
   .delete-post-btn {
